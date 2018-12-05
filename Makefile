@@ -2,7 +2,7 @@ docker-build:
 	docker build \
 		-t ex-ms-dotnet-boilerplate \
 		--rm \
-		--no-cache \
+		--force-rm=true \
 		--build-arg ASPNETCORE_ENVIRONMENT=production \
 		--build-arg APP_NAME=Example-Bookstore-Customer \
 		--build-arg OBJECT_URL=http://fdns-ms-object:8083/api/1.0 \

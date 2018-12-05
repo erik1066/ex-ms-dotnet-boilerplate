@@ -1,5 +1,5 @@
-# Example .NET Core 2.1 Microservice - Boilerplate
-This is a repository containing a mostly empty C# / .NET Core microservice that's ready to be connected to the CDC's [Foundation Services](https://github.com/CDCGov/fdns). It includes implementations for:
+# Example .NET Core 2.2 Microservice - Boilerplate
+This is a repository containing a mostly empty C# / ASP.NET Core 2.2 microservice that's ready to be connected to the CDC's [Foundation Services](https://github.com/CDCGov/fdns). It includes implementations for:
 
 * Logging
 * [FDNS .NET Core SDK](https://github.com/erik1066/fdns-dotnet-sdk)
