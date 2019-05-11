@@ -12,7 +12,7 @@ namespace Foundation.Example.WebUI.Controllers
     [ApiController]
     public sealed class IndexController : ControllerBase
     {
-        private readonly string _version = "{ \"version\": \"" +  typeof(Startup).Assembly.GetName().Version.ToString() + "\" }";
+        private readonly string _version = "{ \"version\": \"" + typeof(Startup).Assembly.GetName().Version.ToString() + "\" }";
 
         public IndexController()
         {
